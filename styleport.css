@@ -1,0 +1,210 @@
+html, body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 72px;
+    padding: 0 20px;
+    color: #695A5A;
+    background: #f2f2f2;
+    font-family: "inter", "Poppins";
+  }
+  
+  .logo,
+  .links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    gap: 12px;
+  }
+  
+  .logo img {
+    width: 170px;
+    height: 120px;
+    border-radius: 6px;
+  }
+  
+  .links {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 40px;
+    font-weight: bold;
+    font-family: 'inter', sans-serif;
+  }
+  
+  .navbar a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.25s;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.left-column {
+    flex: 1;
+    align-items: center;
+    text-align: center;
+}
+
+.left-column h1{
+    font-family: "abhaya libre";
+    color: #695A5A; 
+}
+
+.left-column p{
+    font-family: "inter";
+    }
+
+.right-column {
+    flex: 1;
+    margin-right: 5%;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    background-color: #000;
+  }
+
+.slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.slider-button {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.);
+    color: rgb(212, 208, 208);
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    top: 60%;
+    transform: translateY(-50%);
+    font-size: 24px;
+  }
+
+  .prev {
+    left: 42%; /* Sesuaikan posisi kiri tombol sebelum gambar */
+}
+
+.next {
+    right: 10px; /* Sesuaikan posisi kanan tombol setelah gambar */
+}
+
+/*BATASSSSSSSSSSSSSSS ATAS 1 SAMA BAWAH 1 */
+
+.container1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    background-color: #695A5A;
+}
+
+.right1-column {
+    position: relative;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+}
+
+.right1-column h1{
+    font-family: "abhaya libre";
+    color: #cecece; 
+}
+
+.right1-column p{
+    font-family: "inter";
+    color: rgb(250, 250, 250);
+    }
+
+.left1-column {
+        flex: 1;
+        margin-left: 5%;
+}
+
+.slider1 {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    background-color: #000;
+    margin-top: 10%;
+}
+
+.slider1 video {
+    width: 100%; /* Menyesuaikan lebar video dengan lebar slider */
+    height: auto; /* Memastikan aspek rasio video tetap terjaga */
+    display: block;
+}
+
+
+.slider-tombol {
+    position: absolute;
+    background-color: #695A5A;
+    color: rgb(212, 208, 208);
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    margin-top: 50px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-family: sans-serif;
+  }
+  

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exacrew Solusi Kreativitas Anda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <img src="foto/logo.png">
+        </div>
+        <div class="links">
+          <a href="#" class="active">Profile</a>
+          <a href="portfolio.html" class="active1">Portfolio</a>
+          <a href="#" id="contact-link">Contact</a>
+        </div>
+    </nav>
+    <div class="row banner-1">
+        <div class="col-md-12">
+            <div class="content-wrapper"></div>
+            <h1>Taking Your <br>
+                Creativity to<br>
+                the <span class="banner-h">Next Level</span>
+            </h1>
+            <p>
+                Join us and together explore limitless<br>
+                potential of  digital creativity. Let's create<br>
+                innovate and achieve success together!
+            </p>
+            <button class="btn2" onclick="window.location.href='#'"><b>About Us</b></button>
+        </div>
+            <div class="image-wrapper">
+                <img src="foto/com.png" alt="Your Image">
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row banner-2">
+            <div class="col-md-3">
+                <div class="offer">
+                    <h2>What We Offer</h2>
+                    <div class= "image-offer">
+                        <img src="foto/b2.png" class="image-animate" style="margin-left: 10%;">
+                        <img src="foto/inet.png" class="image-animate">
+                        <img src="foto/vp.png" class="image-animate">
+                        <img src="foto/mail.png" class="image-animate">
+                    </div>
+                    <div class= "text-offer">
+                        <p class="text-animate" style="margin-left: 9%;"><b>Ads Content Creator</b></p>
+                        <p class="text-animate"><b>Landing Page Development</b></p>
+                        <p class="text-animate"><b>Photo & Videography Production</b></p>
+                        <p class="text-animate"><b>Invitation Wedding</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="slider-container">
+        <div class="row banner-3">
+            <h2 class="gallery-title"> Gallery</h2>
+            <div class="slider">
+            <img src="gallery/1.jpeg" alt="Image 1">
+            <img src="gallery/2.jpeg" alt="Image 2">
+            <img src="gallery/3.jpeg" alt="Image 3">
+            <img src="gallery/4.jpeg" alt="Image 4">
+            <img src="gallery/5.jpeg" alt="Image 5">
+            <img src="gallery/6.jpeg" alt="Image 6">
+            </div>
+        </div>
+        <button class="prev slider-button" onclick="prevSlide()"><i class="fas fa-chevron-left"></i></button>
+        <button class="next slider-button" onclick="nextSlide()"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <div class="container-contact">
+        <div class="row banner-4">
+            <h2 class="contact">Still Confused?</h2>
+            <div class="card">
+                <!-- Card 1 -->
+                <div class="card-item">
+                    <span class="material-symbols-outlined">
+                        chat_bubble
+                    </span>
+                    <h2>Contact Us</h2>
+                    <p>Share any input, questions, or just want to say hello? We're ready to hear it!</p>
+                    <button><b>Chat us</b></button>
+                </div>
+                <!-- Card 2 -->
+                <div class="card-item">
+                    <span class="material-symbols-outlined">
+                        chat_info
+                        </span>
+                    <h2>Get Support</h2>
+                    <p>Having problems or difficulties? We're ready to help! Send a message for support.</p>
+                    <button><b>Contact Support</b></button>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+    
+
+
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/exacrew.id/"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2024 Exacrew. All rights reserved.
+    </div>
+</footer>
+
+</html>
